@@ -1,21 +1,21 @@
 # i2i-Academy-AppliedImageProcessing-9
-OpenCV ve EasyOCR ile klasik goruntu isleme yontemleri kullanan Otomatik Plaka Tanima (ALPR) modulu
+  OpenCV ve EasyOCR ile klasik görüntü işleme yöntemleri kullanan Otomatik Plaka Tanıma (ALPR) modülü
 
 # Özet
-  Bu projede klasik goruntu isleme yontemleri kullanilarak bir Otomatik Plaka Tanima
-  modulu gelistirildi. Deep learning kullanmadan, sadece OpenCV ile araba fotografindaki
-  plaka bolgesi matematiksel olarak tespit edilip kirpildi ve EasyOCR ile plaka metni
-  okunarak konsola yazdirildi.
+  Bu projede klasik görüntü işleme yöntemleri kullanılarak bir Otomatik Plaka Tanıma 
+  modülü geliştirildi. Deep learning kullanmadan, sadece OpenCV ile araba fotoğrafındaki
+  plaka bölgesi matematiksel olarak tespit edilip kırpıldı ve EasyOCR ile plaka metni 
+  okunarak konsola yazdırıldı.
 
 # Tamamlanan Görevler
-  - OpenCV ile goruntu yuklendi ve standart boyuta olceklendirildi
-  - Goruntu gri tonlamaya (grayscale) cevrildi
-  - bilateralFilter ile gurultu azaltildi (blur)
+  - OpenCV ile görüntü yüklendi ve standart boyuta ölçeklendirildi
+  - Görüntü gri tonlamaya (grayscale) çevrildi
+  - bilateralFilter ile gürültü azaltıldı (blur)
   - Canny Edge Detection ile kenarlar tespit edildi
-  - Contour analizi ile plakaya benzeyen dikdortgen bolge bulundu
-  - Tespit edilen plaka bolgesi orijinal goruntuden kirpildi
-  - Kirpilan plaka threshold ile temizlenip EasyOCR'a verildi
-  - Okunan plaka metni konsola yazdirildi
+  - Contour analizi ile plakaya benzeyen dikdörtgen bölge bulundu
+  - Tespit edilen plaka bölgesi orijinal görüntüden kırpıldı
+  - Kırpılan plaka threshold ile temizlenip EasyOCR'a verildi
+  - Okunan plaka metni konsola yazdırıldı
 
 # Kullanılan Teknolojiler
   - Python 3.11
